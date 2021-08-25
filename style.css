@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+:root {
+  --gray-1: #333333;
+  --gray-2: #4f4f4f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", sans-serif;
+}
+
+/* LOGO */
+.logo {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Inconsolata, sans-serif;
+  color: var(--gray-1);
+  letter-spacing: -0.08em;
+  position: absolute;
+  top: 40px;
+  left: 77px;
+}
+
+/* CONTENT */
+.container {
+  height: 100vh;
+  width: 89%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.scarecrow {
+  width: 539.22px;
+  height: 447.43px;
+}
+
+.content {
+  margin-left: 118px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 95px;
+}
+
+.content p {
+  width: 381px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: var(--gray-2);
+  margin: 36px 0 64px 0;
+}
+
+.content button {
+  width: 216px;
+  height: 68px;
+  background: var(--gray-1);
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Inconsolata;
+  letter-spacing: -3.5%;
+  outline: none;
+}
+
+/* FOOTER */
+footer p {
+  font-size: 14px;
+  font-family: Monserrat, sans-serif;
+  text-align: center;
+  color: #bdbdbd;
+  margin-bottom: 24px;
+}
