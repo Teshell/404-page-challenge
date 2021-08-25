@@ -60,5 +60,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/Teshell)
-- Twitter [@your-twitter](https://twitter.com/hamadi_zinedine)
+- GitHub [@Teshell](https://github.com/Teshell)
+- Twitter [@hamadi_zinedine](https://twitter.com/hamadi_zinedine)
